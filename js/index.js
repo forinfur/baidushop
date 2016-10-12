@@ -20,7 +20,6 @@ $(function(){
 			 })			 
 		}
 		bgbox.mouseover(function(){
-			img.animate({width:+=40,height:+=40})
 			clearInterval(t)
 		})
 		bgbox.mouseout(function(){
