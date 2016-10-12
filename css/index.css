@@ -157,7 +157,7 @@ img:hover{
 
 /*context*/
 	.context{
-		margin: 0 auto;
+		margin: 40px auto 20px auto;
 		height: 581px;
 	}
 	.context_l{
@@ -172,7 +172,7 @@ img:hover{
 		height: 138px;
 		position: absolute;
 		right: 0;
-		bottom: 0;
+		bottom: 8px;
 		transition:transform .5s;
 	}
 	.con_r img:hover{
@@ -222,11 +222,167 @@ img:hover{
 	.context_r2 li:nth-child(3){
 			border-bottom:  1px solid #aaa;
 	}
+	.con_tit1{
+		margin-left: 8px;
+		margin-top: 8px;
+		font-size: 18px;
+	}
+	.con_tit2{
+		margin-left: 8px;
+		font-size: 12px;
+		line-height: 28px;
+		color: #ccc;
+	}
+	.con_tit3{
+		margin-left: 8px;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.con_tit4{
+		margin-left: 8px;
+		margin-top: 8px;
+		font-size: 20px;
+	}
+	.con_tit5{
+		margin-left: 8px;
+		font-size: 14px;
+		line-height: 28px;
+		color: #ccc;
+	}
+	.con_tit6{
+		margin-left: 8px;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.remai{
+		margin-left: 8px;
+		background: #e03;
+		padding: 0 8px;
+		width: 28px;
+		text-align: center;
+		height: 16px;
+		border-radius: 2px;
+		color: #fff;
+	}
 	
+	.fgf{
+		margin: 0 auto;
+		border: 1px solid #ccc;
+	}
+
+/*blueteeth;*/
+	.blueteeth{
+		background: #eee;
+		padding:80px 0;
+		min-width: 960px;
+	}
+	.btinn{
+		width: 1200px;
+		height: 400px;
+		margin: 0 auto;
+	}
+	.bt_l{
+		float: left;
+		position: relative;
+	}
+	.bt_r{
+		width: 465px;
+		float: left;
+		padding-left: 25px;
+	}
+	.bt_title{
+		height: 60px;
+		font-size: 12px;
+		line-height: 20px;
+		color: #333;
+		margin-top: 20px;
+	}
+	.bt_jg{
+		height: 36px;
+		width: 100%;
+		margin: 17px auto;
+		color:#ee3531;
+		font-size: 24px;
+	}
+	.bt_btns{
+		width: 100%;
+		height: 130px;
+	}
+	.btn_buy{
+		width: 140px;
+		height: 40px;
+		color: #fff;
+		cursor: pointer;
+		background: #ee3531;
+		text-align: center;
+		font-size: 16px;
+		line-height: 40px;
+		margin-right: 15px;
+		border-radius: 3px;
+		float: left;
+		/*transition: all .3s ease-out;*/
+	}
+	.btn_buy:hover{
+		background: #c33;
+	}
+	.btn_show{
+		width: 140px;
+		height: 40px;
+		float: left;
+		border: 1px solid #999;
+		background: #fff;
+		color: #555;
+		line-height: 40px;
+		text-align: center;
+		cursor: pointer;
+		border-radius: 3px;
+		/*transition: all .3s ease-out;*/
+	}
+	.btn_show:hover{
+		color: #000;
+		border: 1px solid #000;
+	}
+	.bt_tl{
+		padding-top: 27px;
+		border-top:1px solid #ddd;
+	}
+	.bt_ues_tx{
+		width: 30px;
+		height:30px;
+		margin-right: 7px;
+		float: left;
+	}
+	.bt_ues_tx img{
+		width:30px;
+		height:30px;
+		display: block;
+		border-radius: 50%;
+	}
+	.bt_zan{
+		float: left;
+		height: 30px;
+		line-height: 30px;
+		color: #333;
+		font-size: 12px;
+	}
+	.bt_tlbtn{
+		float: right;
+		width: 140px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		border-radius: 3px;
+		background: #333;
+		color: #fff;
+		cursor: pointer;
+	}
+	.product-torget:hover{
+	background: #000;
+	}
 
 /*屏幕大于1200时*/
 	@media screen and (min-width: 1200px){
-		.context{
+		.context,.fgf{
 			width: 1200px;
 		}
 		.context_r2{
@@ -241,7 +397,7 @@ img:hover{
 	}
 /*屏幕小于960时*/
 	@media screen and (max-width:1200px){
-		.context{
+		.context,.fgf{
 			width: 960px;
 		}
 		.header{
@@ -254,5 +410,17 @@ img:hover{
 			display: block;
 			width: 720px;
 		}
+		.btinn{
+			width: 955px;
+		}
+		.bt_l{
+			width: 465px;
+			height: 400px;
+			background: url(../img/good30-2.jpg); 
+		}
+		.bt_l img{
+		 	display: none
+		}
 		
 	}
+
