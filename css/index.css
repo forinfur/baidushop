@@ -124,23 +124,30 @@ img:hover{
 	.banner{
 		min-width: 960px;
 	}
+	.banner img{
+		transition:all 1s ease-in;
+	}
+	.banner img:hover{
+		transform:scale(1.2,1.2);
+	}
 	.ban_l{
 		width: 60%;
 		height: 100%;
 		float: left;
+		overflow: hidden;
 	}
 	.ban_r{
 		width: 40%;
 		float: left;
+		overflow: hidden;
 	}
 	.ban_l img{
 		line-height: 0px;
-		transition:all 1s ;
+		
 	}
-	.banl img:hover{
+	.ban_l img:hover{
 		display: block;
 		width: 100%;
-		transform:scale(1.1,1.1);
 	}
 	.ban_l img:nth-child(1){
 		width: 100%;
@@ -155,6 +162,16 @@ img:hover{
 	.ban_r img:nth-of-type(1){
 		float: left;
 		width: 50%;
+	}
+	.rt{
+		width: 100%;
+		overflow:hidden;
+		float: left;
+	}
+	.rb{
+		width: 100%;
+		overflow: hidden;
+		float: left;
 	}
 
 
